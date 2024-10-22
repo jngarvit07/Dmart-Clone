@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dmart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="aliceblue">
+    <header>
+        <div class="header">
+            <div class="headerupper">
+                <div class="logo">
+                    <a href="index.html"><img id="logoimg" src="Images/logo.png" alt="Dmart Logo"></a>
+                </div>
+                <div class="dropdown">
+                    <select class="dropdowndetail" name="location" id="location">
+                        <option value="pune">Pune</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="jaipur">Jaipur</option>
+                    </select>
+                </div>
+                <form action="">
+                    <div class="search">
+                        <input class="searchbox" type="text" name="search" placeholder="Search for Your Choice">
+                        <input class="searchbutton" type="submit" name="searchbtn" value="SEARCH">
+                    </div>
+                </form>
+                <div class="signorreg">
+                    <img class="userlogo" src="Images/sign.svg" alt="">
+
+                    <!-- <a class="signanker" href="login.html">Sign In/Register</a> -->
+                    <h3 class="signanker" id="userNameLocal"></h3>
+                </div>
+                <div class="twoicon">
+                    <a href="#"><img class="notify" src="Images/notification_icon.png" alt=""></a>
+                    <a href="#"><img class="cart" src="Images/cart_icon.png" alt=""></a>
+                </div>
+            </div>
+            <div class="headerlower">
+                <div class="category">
+                    <div class="categorytext"><a class="headerlowerankertext" href="#">All Categories</a></div>
+                </div>
+                <div class="products">
+                    <div class="productsdisplay"><a class="headerlowerankertext" href="#">Ready to Cook</a></div>
+                    <div class="productsdisplay"><a class="headerlowerankertext" href="#">Home Appliances</a></div>
+                    <div class="productsdisplay"><a class="headerlowerankertext" href="#">Cookware</a></div>
+                    <div class="productsdisplay"><a class="headerlowerankertext" href="#">Serveware</a></div>
+                    <div class="productsdisplay"><a class="headerlowerankertext" href="#">Cleaners</a></div>
+                    <div class="productsdisplay"><a class="headerlowerankertext" href="#">Detergent & Fabric Care</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="displaybg">
+            <marquee behavior="scroll" direction="left" scrollamount="20">
+                <img src="Images/bg1.webp" alt="">
+                <img src="Images/bg2.webp" alt="">
+                <img src="Images/bg3.webp" alt="">
+                <img src="Images/bg4.webp" alt="">
+                <img src="Images/bg5.webp" alt="">
+            </marquee>
+        </div>
+
+        <div class="popular">
+            <div class="populartext">Popular Categories</div>
+            <div class="popularimages">
+                <div class="popularimg">
+                    <a href="#"><img class="imgpopular" src="Images/popular1_img.png" alt=""></a>
+                    <center><span class="popularimgtext">Tea</span></center>
+                </div>
+                <div class="popularimg">
+                    <a href="#"><img class="imgpopular" src="Images/popular2_img.png" alt=""></a>
+                    <center><span class="popularimgtext">Coffee</span></center>
+                </div>
+                <div class="popularimg">
+                    <a href="#"><img class="imgpopular" src="Images/popular3_img.png" alt=""></a>
+                    <center><span class="popularimgtext">Dairy</span></center>
+                </div>
+                <div class="popularimg">
+                    <a href="#"><img class="imgpopular" src="Images/popular4_img.png" alt=""></a>
+                    <center><span class="popularimgtext">Bath Soaps</span></center>
+                </div>
+                <div class="popularimg">
+                    <a href="#"><img class="imgpopular" src="Images/popular5_img.png" alt=""></a>
+                    <center><span class="popularimgtext">Soft Drinks</span></center>
+                </div>
+                <div class="popularimg">
+                    <a href="#"><img class="imgpopular" src="Images/popular6_img.png" alt=""></a>
+                    <center><span class="popularimgtext">Shampoos</span></center>
+                </div>
+                <div class="popularimg">
+                    <a href="#"><img class="imgpopular" src="Images/popular7_img.png" alt=""></a>
+                    <center><span class="popularimgtext">Towels</span></center>
+                </div>
+                <div class="popularimg">
+                    <a href="#"><img class="imgpopular" src="Images/popular8_img.png" alt=""></a>
+                    <center><span class="popularimgtext">Bottles & More</span></center>
+                </div>
+            </div>
+        </div>
+
+        <div class="pampletes">
+            <div class="happy_monsoon">
+                <div class="monsoonsaleimgdiv">
+                    <a href="#">
+                        <img class="monsoonsaleimg" src="Images/monsoonsale.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="half_price">
+                <div class="halfpriceimgdiv">
+                    <a href="#">
+                        <img class="halfpriceimg" src="Images/half_price.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="exclusive">
+                <div class="exclusiveimgdiv">
+                    <a href="#">
+                        <img class="exclusiveimg" src="Images/exclusive.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="multipleproducts">
+            <div class="viewsingle">
+                <div class="singlelefttext">
+                    New in Gardening
+                </div>
+                <div class="singlerighttext">
+                    <a class="singlerighttextanker" href="#">View All</a>
+                </div>
+            </div>
+            <div class="viewdouble">
+                <!-- Product 1 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pamplet2">
+            <div class="happy_monsoon">
+                <div class="monsoonsaleimgdiv">
+                    <a href="#">
+                        <img class="monsoonsaleimg" src="Images/basket.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="multipleproducts">
+            <div class="viewsingle">
+                <div class="singlelefttext">
+                    New in Gardening
+                </div>
+                <div class="singlerighttext">
+                    <a class="singlerighttextanker" href="#">View All</a>
+                </div>
+            </div>
+            <div class="viewdouble">
+                <!-- Product 1 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fruitsveggie">
+            <div class="fruitsveggieblocks">
+                <div class="headline">
+                    <img class="fruitsveggieimg" src="Images/fruits_vegetables.jpg" alt="">
+                </div>
+                <div class="fruitsveggieblock">
+                    <div class="fruitsveggieblockdiv">
+                        <a href="#">
+                            <img class="fruitsveggiedivimg" src="Images/fresh_fruits.png" alt="">
+                        </a>
+                    </div>
+                    <div class="fruitsveggieblockdiv">
+                        <a href="#">
+                            <img class="fruitsveggiedivimg" src="Images/fresh_vegetables.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="fruitsveggieblock">
+                    <div class="fruitsveggieblockdiv">
+                        <a href="#">
+                            <img class="fruitsveggiedivimg" src="Images/cuts_exotics.png" alt="">
+                        </a>
+                    </div>
+                    <div class="fruitsveggieblockdiv">
+                        <a href="#">
+                            <img class="fruitsveggiedivimg" src="Images/everyday_seasoning.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pamplet2">
+            <div class="happy_monsoon">
+                <div class="monsoonsaleimgdiv">
+                    <a href="#">
+                        <img class="monsoonsaleimg" src="Images/badapack.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="displaybg2">
+            <marquee behavior="scroll" direction="left" scrollamount="20">
+                <img src="Images/bg1.webp" alt="">
+                <img src="Images/bg2.webp" alt="">
+                <img src="Images/bg3.webp" alt="">
+                <img src="Images/bg4.webp" alt="">
+                <img src="Images/bg5.webp" alt="">
+            </marquee>
+        </div>
+
+        <div class="pamplet3">
+            <div class="happy_monsoon">
+                <div class="blocksbg">
+                    <div class="blocksbgimgdiv">
+                        <a href="#"><img class="blocksbgimg" src="Images/breakfast.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="blocksbgimgdiv">
+                        <a href="#"><img class="blocksbgimg" src="Images/stationery.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="blocksbgimgdiv">
+                        <a href="#"><img class="blocksbgimg" src="Images/homedecor.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="multipleproducts">
+            <div class="viewsingle">
+                <div class="singlelefttext">
+                    New in Gardening
+                </div>
+                <div class="singlerighttext">
+                    <a class="singlerighttextanker" href="#">View All</a>
+                </div>
+            </div>
+            <div class="viewdouble">
+                <!-- Product 1 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pamplet4">
+            <div class="pamplet4text">Skin Care
+            </div>
+            <div class="skincare">
+                <div class="monsoonsaleimgdiv">
+                    <a href="#">
+                        <img class="monsoonsaleimg" src="Images/skin_products.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="multipleproducts">
+            <div class="viewsingle">
+                <div class="singlelefttext">
+                    New in Gardening
+                </div>
+                <div class="singlerighttext">
+                    <a class="singlerighttextanker" href="#">View All</a>
+                </div>
+            </div>
+            <div class="viewdouble">
+                <!-- Product 1 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pamplet2">
+            <div class="happy_monsoon">
+                <div class="monsoonsaleimgdiv">
+                    <a href="#">
+                        <img class="monsoonsaleimg" src="Images/popcorn.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pamplet4">
+            <div class="pamplet4text">Stay Safe from Scams</div>
+            <div class="skincare">
+                <div class="monsoonsaleimgdiv">
+                    <a href="#">
+                        <img class="monsoonsaleimg" src="Images/stayalert.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="multipleproducts">
+            <div class="viewsingle">
+                <div class="singlelefttext">
+                    New in Gardening
+                </div>
+                <div class="singlerighttext">
+                    <a class="singlerighttextanker" href="#">View All</a>
+                </div>
+            </div>
+            <div class="viewdouble">
+                <!-- Product 1 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                    <div class="productimgdiv">
+                        <img class="productimg" src="Images/cocopeat.jpg" alt="">
+                    </div>
+                    <div class="productimgname">
+                        <span class="productimgnametext">Ugaoo Organic CocoPeat Brick Plant: 5 kg</span>
+                    </div>
+                    <div class="productprice">
+                        <div class="spprice">
+                            <div class="price">
+                                <div class="mrp">MRP ₹
+                                    <span class="mrpprice"> 499</span>
+                                </div>
+                                <div class="dmartmrp">DMart
+                                    <span class="dmartmrpprice">₹ 299</span>
+                                </div>
+                            </div>
+                            <div class="taxes">
+                                (Inclusive of all taxes)
+                            </div>
+                        </div>
+                        <div class="offprice">
+                            <span class="offpricetext">₹ 200
+                                <span class="offpricesmalltext">OFF</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="productquantity">
+                        <button class="productquantitydisplay">
+                            <b>5kg</b> (Rs 59.80/ 1kg)</button>
+                    </div>
+                    <div class="addtocart">
+                        <button class="addtocarttext">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pamplet2">
+            <div class="happy_monsoon">
+                <div class="monsoonsaleimgdiv">
+                    <a href="#">
+                        <img class="monsoonsaleimg" src="Images/glassware.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pamplet5">
+            <div class="innerwear">
+                <div class="innerwearimgdiv">
+                    <a href="#">
+                        <img class="monsoonsaleimg" src="Images/innerware.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pamplet6">
+            <div class="happy_monsoon">
+                <div class="blocksbg">
+                    <div class="blocksbgimgdiv2">
+                        <a href="#"><img class="blocksbgimg" src="Images/appliances.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="blocksbgimgdiv2">
+                        <a href="#"><img class="blocksbgimg" src="Images/kitchenware.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="displaybg2">
+            <marquee behavior="scroll" direction="left" scrollamount="20">
+                <img src="Images/bg1.webp" alt="">
+                <img src="Images/bg2.webp" alt="">
+                <img src="Images/bg3.webp" alt="">
+                <img src="Images/bg4.webp" alt="">
+                <img src="Images/bg5.webp" alt="">
+            </marquee>
+        </div>
+
+        <div class="pamplet7">
+            <div class="pamplet4text">Home Care</div>
+            <div class="homecare">
+                <div class="blocksbg">
+                    <div class="blocksbgimgdiv3">
+                        <a href="#"><img class="blocksbgimg" src="Images/cleaning.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="blocksbgimgdiv4">
+                        <a href="#"><img class="blocksbgimg" src="Images/household.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footerpart1">
+                <div class="app">
+                    <div class="apptext">
+                        <span>Download DMart Ready Mobile App Now!!</span>
+                    </div>
+                    <div class="appstore">
+                        <div class="apppic1"><img class="apppicimg" src="Images/google-play.svg" alt=""></div>
+                        <div class="apppic2"><img class="apppicimg" src="Images/download-app-store.svg" alt=""></div>
+                    </div>
+                    <div class="payments">
+                        <div class="paymentspic"><img class="paymentspicimg" src="Images/visa.svg" alt=""></div>
+                        <div class="paymentspic"><img class="paymentspicimg" src="Images/mastercard.svg" alt=""></div>
+                        <div class="paymentspic"><img class="paymentspicimg" src="Images/american.svg" alt=""></div>
+                        <div class="paymentspic"><img class="paymentspicimg" src="Images/rupay.svg" alt=""></div>
+                        <div class="paymentspic"><img class="paymentspicimg" src="Images/cash_outlined.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="policy">
+                    <div style="margin-top: 45px;" class="policytext">
+                        <a class="policyanker" href="#">FAQs</a>
+                    </div>
+                    <div class="policytext">
+                        <a class="policyanker" href="#">Privacy Policy</a>
+                    </div>
+                    <div class="policytext">
+                        <a class="policyanker" href="#">Pricing, Delivery, Return and Refund
+                            Policy</a>
+                    </div>
+                    <div class="policytext">
+                        <a class="policyanker" href="#">
+                            Terms and Conditions
+                        </a>
+                    </div>
+                    <div class="policytext">
+                        <a class="policyanker" href="#">
+                            Disclaimer
+                        </a>
+                    </div>
+                </div>
+                <div class="company">
+                    <div style="margin-top: 45px;" class="companytext">
+                        <a class="companyanker" href="#">Contact Us</a>
+                    </div>
+                    <div class="companytext">
+                        <a class="companyanker" href="#">About Us</a>
+                    </div>
+                    <div class="companytext">
+                        <a class="companyanker" href="#">Join Us</a>
+                    </div>
+                    <div class="companytext">
+                        <a class="companyanker" href="#">Pickup Points</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerpart2">
+                <center>
+                    <div class="copyrighttext">Copyright © 2024 Avenue E-Commerce Limited (AEL). All Rights
+                        Reserved.</div>
+                </center>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let uName = localStorage.getItem("userName");
+        document.getElementById("userNameLocal").innerHTML = uName;
+    </script>
+</body>
+
+</html>

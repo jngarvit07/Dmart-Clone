@@ -1,0 +1,763 @@
+.header {
+    width: 100%;
+    height: 100%;
+}
+
+.headerupper {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    background-color: white;
+}
+
+.logo {
+    width: 175px;
+    height: 60px;
+}
+
+#logoimg {
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown {
+    margin-left: 10px;
+    width: 165px;
+    height: 60px;
+}
+
+.dropdowndetail {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+
+.search {
+    margin-left: 20px;
+    width: 650px;
+    height: 60px;
+}
+
+.searchbox {
+    width: 79%;
+    height: 60%;
+    margin-top: 10px;
+}
+
+.searchbutton {
+    width: 19%;
+    height: 70%;
+    margin-top: 10px;
+    margin-left: -5px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-weight: 550;
+}
+
+.signorreg {
+    width: 175px;
+    height: 60px;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+}
+
+.userlogo {
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.signanker {
+    text-decoration: none;
+    margin-top: 17px;
+    margin-left: 17px;
+    font-weight: 100;
+    color: black;
+}
+
+.twoicon {
+    width: 170px;
+    height: 60px;
+    display: flex;
+}
+
+.notify {
+    width: 40px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.cart {
+    width: 40px;
+    height: 35px;
+    margin-top: 11px;
+    margin-left: 28px;
+}
+
+.headerlower {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: white;
+    border-top: 0.5px solid #cacaca;
+    box-shadow: 0px 2px #cacaca;
+}
+
+.category {
+    width: 250px;
+    height: 40px;
+    border-right: 0.5px solid #cacaca;
+}
+
+.categorytext {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.products {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.productsdisplay {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.headerlowerankertext {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+.displaybg {
+    width: 100%;
+    height: 290px;
+}
+
+.popular {
+    width: 96%;
+    height: 230px;
+    margin: auto;
+    margin-top: 23px;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px #e6e6e6;
+    background-color: white;
+}
+
+.populartext {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.popularimages {
+    width: 96%;
+    height: 180px;
+    margin: auto;
+    display: flex;
+}
+
+.popularimg {
+    width: 120px;
+    height: 165px;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+
+.imgpopular {
+    width: 100%;
+    height: 120px;
+}
+
+.popularimgtext {
+    color: #494949;
+    font-weight: 550;
+}
+
+.pampletes {
+    width: 96%;
+    height: 760px;
+    margin: auto;
+    margin-top: 23px;
+}
+
+.happy_monsoon {
+    width: 100%;
+    height: 230px;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.monsoonsaleimgdiv {
+    width: 96%;
+    height: 80%;
+    margin-top: 22px;
+    margin-left: 23px;
+}
+
+.monsoonsaleimg {
+    width: 100%;
+    height: 100%;
+}
+
+.half_price {
+    width: 100%;
+    height: 230px;
+    margin-top: 23px;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.halfpriceimgdiv {
+    width: 96%;
+    height: 80%;
+    margin-top: 22px;
+    margin-left: 23px;
+}
+
+.halfpriceimg {
+    width: 100%;
+    height: 100%;
+}
+
+.exclusive {
+    width: 100%;
+    height: 230px;
+    margin-top: 23px;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.exclusiveimgdiv {
+    width: 96%;
+    height: 80%;
+    margin-top: 22px;
+    margin-left: 23px;
+}
+
+.exclusiveimg {
+    width: 100%;
+    height: 100%;
+}
+
+.multipleproducts {
+    width: 96%;
+    height: 490px;
+    margin: auto;
+    margin-top: 23px;
+    background-color: rgb(193, 252, 195);
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.viewsingle {
+    width: 97%;
+    height: 25px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.singlelefttext {
+    width: 13%;
+    height: 90%;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 550;
+    margin-left: 20px;
+}
+
+.singlerighttext {
+    width: 12%;
+    height: 90%;
+    margin-left: 77%;
+    height: 90%;
+    font-size: medium;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    padding-top: 3px;
+}
+
+.singlerighttextanker {
+    text-decoration: none;
+    font-weight: 550;
+    color: black;
+}
+
+.viewdouble {
+    width: 96%;
+    height: 380px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+.product {
+    width: 22%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.productimgdiv {
+    width: 50%;
+    height: 35%;
+    margin-top: 6%;
+    margin-left: 23%;
+}
+
+.productimg {
+    height: 100%;
+    width: 100%;
+}
+
+.productimgname {
+    width: 85%;
+    height: 10%;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.productimgnametext {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: -700;
+    color: #3a3939;
+}
+
+.productprice {
+    width: 93%;
+    height: 14%;
+    margin-top: 8%;
+    margin-left: 3%;
+    display: flex;
+}
+
+.spprice {
+    height: 100%;
+    width: 60%;
+    margin-left: 3%;
+}
+
+.price {
+    margin-top: 3px;
+    height: 70%;
+    width: 70%;
+    margin-left: 30%;
+    display: flex;
+}
+
+.mrp {
+    height: 100%;
+    width: 42%;
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+
+.mrpprice {
+    text-decoration: line-through;
+}
+
+.dmartmrp {
+    height: 100%;
+    width: 42%;
+    margin-left: 20%;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.dmartmrpprice {
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.taxes {
+    margin-top: -3px;
+    height: 30%;
+    width: 100%;
+    font-size: 13px;
+    padding-left: 21%;
+}
+
+.offprice {
+    height: 80%;
+    width: 25%;
+    margin-left: 15%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #edffe8;
+}
+
+.offpricetext {
+    font-weight: 550;
+    font-family: Arial;
+    color: green;
+    margin: auto;
+}
+
+.offpricesmalltext {
+    font-weight: 500;
+    font-family: Arial;
+    color: green;
+    margin: auto;
+    font-size: 14px;
+}
+
+.productquantity {
+    width: 93%;
+    height: 7%;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.productquantitydisplay {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.addtocart {
+    width: 93%;
+    height: 10%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.addtocarttext {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 180, 0);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: Arial;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.pamplet2 {
+    width: 96%;
+    height: 230px;
+    margin: auto;
+    margin-top: 23px;
+}
+
+.fruitsveggie {
+    width: 96%;
+    height: 520px;
+    margin: auto;
+    margin-top: 23px;
+    border: 1px solid #cacaca;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.fruitsveggieblocks {
+    width: 96%;
+    height: 92%;
+    margin: auto;
+    margin-top: 1.5%;
+    border-radius: 4px;
+    background-color: rgb(255, 243, 215);
+}
+
+.headline {
+    width: 100%;
+    height: 20%;
+}
+
+.fruitsveggieimg {
+    width: 100%;
+    height: 100%;
+}
+
+.fruitsveggieblock {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    margin: auto;
+}
+
+.fruitsveggieblockdiv {
+    width: 47%;
+    height: 80%;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid #cacaca;
+}
+
+.fruitsveggiedivimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.displaybg2 {
+    width: 100%;
+    height: 260px;
+    margin-top: 23px;
+}
+
+.pamplet3 {
+    width: 96%;
+    height: 230px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.blocksbg {
+    width: 96%;
+    height: 80%;
+    margin-top: 22px;
+    margin-left: 23px;
+    display: flex;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.blocksbgimgdiv {
+    width: 32%;
+    height: 100%;
+    margin: auto;
+}
+
+.blocksbgimg {
+    width: 100%;
+    height: 100%;
+}
+
+.pamplet4 {
+    width: 96%;
+    height: 270px;
+    margin: auto;
+    margin-top: 23px;
+    background-color: white;
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+}
+
+.pamplet4text {
+    width: 96%;
+    margin: auto;
+    margin-top: 26px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 550;
+}
+
+.skincare {
+    width: 100%;
+    height: 230px;
+    border-radius: 2px;
+    margin-top: 2px;
+}
+
+.pamplet5 {
+    width: 96%;
+    height: 140px;
+    margin: auto;
+    margin-top: 23px;
+}
+
+.innerwear {
+    width: 100%;
+    height: 140px;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 2px;
+    background-color: white;
+}
+
+.innerwearimgdiv {
+    width: 96%;
+    height: 70%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.pamplet6 {
+    width: 96%;
+    height: 230px;
+    margin: auto;
+    margin-top: 23px;
+}
+
+.blocksbgimgdiv2 {
+    width: 49%;
+    height: 100%;
+    margin: auto;
+}
+
+.pamplet7 {
+    width: 96%;
+    height: 270px;
+    margin: auto;
+    margin-top: 56px;
+    margin-bottom: 23px;
+    background-color: white;
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+}
+
+.homecare {
+    width: 100%;
+    height: 230px;
+    border-radius: 2px;
+}
+
+.blocksbgimgdiv3 {
+    width: 62%;
+    height: 100%;
+    margin: auto;
+}
+
+.blocksbgimgdiv4 {
+    width: 36%;
+    height: 100%;
+    margin: auto;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #cacaca;
+}
+
+.footerpart1 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.app {
+    width: 390px;
+    height: 300px;
+}
+
+.apptext {
+    width: 82%;
+    height: 30px;
+    margin: auto;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.appstore {
+    width: 82%;
+    height: 37px;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+}
+
+.apppic1 {
+    width: 130px;
+    height: 42px;
+}
+
+.apppic2 {
+    width: 130px;
+    height: 42px;
+    margin-left: 20px;
+}
+
+.apppicimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5px;
+}
+
+.payments {
+    width: 85%;
+    height: 25px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+}
+
+.paymentspic {
+    width: 42px;
+    height: 23px;
+    margin-left: 5px;
+}
+
+.paymentspicimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+}
+
+.policy {
+    width: 350px;
+    height: 300px;
+    margin-left: 400px;
+}
+
+.policytext {
+    width: 100%;
+    height: 30px;
+    margin-top: 11px;
+}
+
+.policyanker {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.company {
+    width: 300px;
+    height: 300px;
+}
+
+.companytext {
+    width: 100%;
+    height: 30px;
+    margin-top: 11px;
+}
+
+.companyanker {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.footerpart2 {
+    width: 94%;
+    height: 20%;
+    display: flex;
+    margin: auto;
+    border-top: 2px solid rgb(165, 165, 165);
+}
+
+.copyrighttext {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 380px;
+    color: rgb(75, 75, 75);
+}
